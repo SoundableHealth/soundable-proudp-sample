@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B51C04D2CCA41670068FDE8 /* SoundableProudpLib in Frameworks */ = {isa = PBXBuildFile; productRef = 8B51C04C2CCA41670068FDE8 /* SoundableProudpLib */; };
+		8B51C04F2CCA41AD0068FDE8 /* SoundableProudpLib in Frameworks */ = {isa = PBXBuildFile; productRef = 8B51C04E2CCA41AD0068FDE8 /* SoundableProudpLib */; };
+		8B51C0522CCA41F70068FDE8 /* SoundableProudpLib in Frameworks */ = {isa = PBXBuildFile; productRef = 8B51C0512CCA41F70068FDE8 /* SoundableProudpLib */; };
+		8B8A56B32CB1732600A731A3 /* soundable_proudp_sampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8A56B22CB1732600A731A3 /* soundable_proudp_sampleApp.swift */; };
+		8B8A56B52CB1732600A731A3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8A56B42CB1732600A731A3 /* ContentView.swift */; };
+		8B8A56B72CB1732B00A731A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B8A56B62CB1732B00A731A3 /* Assets.xcassets */; };
+		8B8A56BA2CB1732B00A731A3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B8A56B92CB1732B00A731A3 /* Preview Assets.xcassets */; };
+		8B8C2B952CDA42EB00ACE012 /* SoundableProudpLib in Frameworks */ = {isa = PBXBuildFile; productRef = 8B8C2B942CDA42EB00ACE012 /* SoundableProudpLib */; };
+		8B95EFDC2CD8C53F004C4485 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B95EFDB2CD8C53F004C4485 /* Constants.swift */; };
+		8BD00EE42CDA110100B4FD20 /* SoundableProudpLib in Frameworks */ = {isa = PBXBuildFile; productRef = 8BD00EE32CDA110100B4FD20 /* SoundableProudpLib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8B8A56AF2CB1732600A731A3 /* soundable-proudp-sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "soundable-proudp-sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B8A56B22CB1732600A731A3 /* soundable_proudp_sampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = soundable_proudp_sampleApp.swift; sourceTree = "<group>"; };
+		8B8A56B42CB1732600A731A3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8B8A56B62CB1732B00A731A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8B8A56B92CB1732B00A731A3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8B95EFDB2CD8C53F004C4485 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B8A56AC2CB1732600A731A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BD00EE42CDA110100B4FD20 /* SoundableProudpLib in Frameworks */,
+				8B51C04F2CCA41AD0068FDE8 /* SoundableProudpLib in Frameworks */,
+				8B51C04D2CCA41670068FDE8 /* SoundableProudpLib in Frameworks */,
+				8B8C2B952CDA42EB00ACE012 /* SoundableProudpLib in Frameworks */,
+				8B51C0522CCA41F70068FDE8 /* SoundableProudpLib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B8A56A62CB1732500A731A3 = {
+			isa = PBXGroup;
+			children = (
+				8B8A56B12CB1732600A731A3 /* soundable-proudp-sample */,
+				8B8A56B02CB1732600A731A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8B8A56B02CB1732600A731A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B8A56AF2CB1732600A731A3 /* soundable-proudp-sample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B8A56B12CB1732600A731A3 /* soundable-proudp-sample */ = {
+			isa = PBXGroup;
+			children = (
+				8B8A56B22CB1732600A731A3 /* soundable_proudp_sampleApp.swift */,
+				8B8A56B42CB1732600A731A3 /* ContentView.swift */,
+				8B8A56B62CB1732B00A731A3 /* Assets.xcassets */,
+				8B8A56B82CB1732B00A731A3 /* Preview Content */,
+				8B95EFDB2CD8C53F004C4485 /* Constants.swift */,
+			);
+			path = "soundable-proudp-sample";
+			sourceTree = "<group>";
+		};
+		8B8A56B82CB1732B00A731A3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8B8A56B92CB1732B00A731A3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B8A56AE2CB1732600A731A3 /* soundable-proudp-sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B8A56BD2CB1732B00A731A3 /* Build configuration list for PBXNativeTarget "soundable-proudp-sample" */;
+			buildPhases = (
+				8B8A56AB2CB1732600A731A3 /* Sources */,
+				8B8A56AC2CB1732600A731A3 /* Frameworks */,
+				8B8A56AD2CB1732600A731A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "soundable-proudp-sample";
+			packageProductDependencies = (
+				8B51C04C2CCA41670068FDE8 /* SoundableProudpLib */,
+				8B51C04E2CCA41AD0068FDE8 /* SoundableProudpLib */,
+				8B51C0512CCA41F70068FDE8 /* SoundableProudpLib */,
+				8BD00EE32CDA110100B4FD20 /* SoundableProudpLib */,
+				8B8C2B942CDA42EB00ACE012 /* SoundableProudpLib */,
+			);
+			productName = "soundable-proudp-sample";
+			productReference = 8B8A56AF2CB1732600A731A3 /* soundable-proudp-sample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B8A56A72CB1732500A731A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					8B8A56AE2CB1732600A731A3 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 8B8A56AA2CB1732500A731A3 /* Build configuration list for PBXProject "soundable-proudp-sample" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8B8A56A62CB1732500A731A3;
+			packageReferences = (
+				8B8C2B932CDA42EB00ACE012 /* XCLocalSwiftPackageReference "../SoundableProudpLib" */,
+			);
+			productRefGroup = 8B8A56B02CB1732600A731A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B8A56AE2CB1732600A731A3 /* soundable-proudp-sample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B8A56AD2CB1732600A731A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B8A56BA2CB1732B00A731A3 /* Preview Assets.xcassets in Resources */,
+				8B8A56B72CB1732B00A731A3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B8A56AB2CB1732600A731A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B8A56B52CB1732600A731A3 /* ContentView.swift in Sources */,
+				8B8A56B32CB1732600A731A3 /* soundable_proudp_sampleApp.swift in Sources */,
+				8B95EFDC2CD8C53F004C4485 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8B8A56BB2CB1732B00A731A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8B8A56BC2CB1732B00A731A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B8A56BE2CB1732B00A731A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"soundable-proudp-sample/Preview Content\"";
+				DEVELOPMENT_TEAM = RKDW3ULTS2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Allow access to the microphone to record audio";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.soundable.proudpsdksample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8B8A56BF2CB1732B00A731A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"soundable-proudp-sample/Preview Content\"";
+				DEVELOPMENT_TEAM = RKDW3ULTS2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Allow access to the microphone to record audio";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.soundable.proudpsdksample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B8A56AA2CB1732500A731A3 /* Build configuration list for PBXProject "soundable-proudp-sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B8A56BB2CB1732B00A731A3 /* Debug */,
+				8B8A56BC2CB1732B00A731A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B8A56BD2CB1732B00A731A3 /* Build configuration list for PBXNativeTarget "soundable-proudp-sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B8A56BE2CB1732B00A731A3 /* Debug */,
+				8B8A56BF2CB1732B00A731A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		8B8C2B932CDA42EB00ACE012 /* XCLocalSwiftPackageReference "../SoundableProudpLib" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../SoundableProudpLib;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8B51C04C2CCA41670068FDE8 /* SoundableProudpLib */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SoundableProudpLib;
+		};
+		8B51C04E2CCA41AD0068FDE8 /* SoundableProudpLib */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SoundableProudpLib;
+		};
+		8B51C0512CCA41F70068FDE8 /* SoundableProudpLib */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SoundableProudpLib;
+		};
+		8B8C2B942CDA42EB00ACE012 /* SoundableProudpLib */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SoundableProudpLib;
+		};
+		8BD00EE32CDA110100B4FD20 /* SoundableProudpLib */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SoundableProudpLib;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 8B8A56A72CB1732500A731A3 /* Project object */;
+}
