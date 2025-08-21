@@ -8,12 +8,22 @@
 import SwiftUI
 import SoundableProudpLib
 
+class RecordingDelegate: NSObject, SoundableProudpLibDelegate {
+    var onCallInterrupt: (() -> Void)?
+    
+    func recordingDidCancelDueToCallInterrupt() {
+        DispatchQueue.main.async {
+            self.onCallInterrupt?()
+        }
+    }
+}
 
 struct ContentView: View {
     @State private var isButtonPressed = false
     let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
     @State var recordTime = "00:00"
     let soundableProudpLib = SoundableProudpLib()
+    let recordingDelegate = RecordingDelegate()
 
     var body: some View {
         VStack {
@@ -53,6 +63,10 @@ struct ContentView: View {
                 // TODO, Add "microphone usage description" in info.plist
                 soundableProudpLib.checkPermission()
                 soundableProudpLib.setServerConfig(serverUrl: serverApiUrl, apiKey: xApiKey, websocketUrl: webSocketUrl)
+                recordingDelegate.onCallInterrupt = { [self] in
+                    handleCallInterrupt()
+                }
+                soundableProudpLib.delegate = recordingDelegate
                 
             }
             .onReceive(NotificationCenter.default.publisher(for: Notification.Name("SoundableProudpLib"))) { notification in
@@ -72,6 +86,13 @@ struct ContentView: View {
             }
         }
     }
+    
+    func handleCallInterrupt() {
+        // TODO, Close recording UI, show an alert or notification to the user, etc.
+        isButtonPressed = false
+        print("Recording was cancelled due to incoming call")
+    }
+    
 }
 
 
